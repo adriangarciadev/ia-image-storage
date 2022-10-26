@@ -7,7 +7,7 @@ config :ia_image_storage, IaImageStorage.Repo,
   hostname: "localhost",
   database: "ia_image_storage_dev",
   show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+  pool_size: 0
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
