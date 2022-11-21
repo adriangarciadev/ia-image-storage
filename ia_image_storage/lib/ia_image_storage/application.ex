@@ -9,7 +9,7 @@ defmodule IaImageStorage.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      IaImageStorage.Repo,
+      # IaImageStorage.Repo,
       # Start the Telemetry supervisor
       IaImageStorageWeb.Telemetry,
       # Start the PubSub system
